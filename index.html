@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- <button id="theme-toggle" class="btn btn-primary">Toggle theme</button> -->
+            <input id="theme-toggle" class="u-mb-80" type="checkbox">
+            <div class="u-mw-448 u-m-auto">
+                <h1>Generate a <span>random password</span></h1>
+                <p class="body-lg">Never use an insecure password again.</p>
+                <button class="btn btn-primary" onclick="renderPasswords()">Generate passwords</button>
+                <hr>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="tooltip">
+                            <span class="tooltip-text">Click to copy</span>
+                            <input id="password-one" class="password" type="text" readonly>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="tooltip">
+                            <span class="tooltip-text">Click to copy</span>
+                            <input id="password-two" class="password" type="text" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
